@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*模範解答ではmainタグにwidthとmargin: 50px auto;を指定*/
+
+.list-box {
+  width: 960px;
+  margin: 50px auto 0;
+  list-style: none;
+}
+
+.list-item {
+  padding: 20px;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #eee;
+}
+
+.color-box {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-item {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: gold;
+}
+
+.box-item:first-child {
+  background-color: #ff8c00;
+}
+
+.box-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.box-item:nth-child(5) {
+  background-color: #ff8c00;
+}
+
+.box-item:nth-child(n+7) {
+  margin-bottom: 0;
+}
+
+.box-item:last-child {
+  background-color: #ff8c00;
+}
+
+/*模範解答では「プロパティ:値;」の内容が重複する時、セレクタを並列で記述して同時に指定*/
