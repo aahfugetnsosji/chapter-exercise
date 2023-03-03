@@ -6,28 +6,28 @@
 
 .spring {
   height: 200px;
-  background-image: url(img/box1.jpg);
+  background-image: url(chapter6_img/box1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .summer {
   height: 200px;
-  background-image: url(img/box2.jpg);
+  background-image: url(chapter6_img/box2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .autumn {
   height: 200px;
-  background-image: url(img/box3.jpg);
+  background-image: url(chapter6_img/box3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .winter {
   height: 200px;
-  background-image: url(img/box4.jpg);
+  background-image: url(chapter6_img/box4.jpg);
   background-size: cover;
   background-position: center;
 }
